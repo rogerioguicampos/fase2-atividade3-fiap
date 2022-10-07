@@ -10,7 +10,7 @@
     --turquesa: #35d7d5; 
     --amarelo: #E3AD1C;
     --chumbo: rgb(20, 20, 20);
-    --verde-contraste: #03A869;
+    --verde-contraste: #02653F;
 }
 
 body {
@@ -67,7 +67,7 @@ body {
 }
 
 .header_link:hover {
-    color: var(--verde);
+    color: var(--verde-agua);
     font-weight: bolder;
     transition: 0.5s;
 }
@@ -89,25 +89,23 @@ body {
 .principal .travel {
     color: var(--branco);
 	text-align: center;
-    width: 50%;
+    width: 60%;
 }
 
 .travel h1 {
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    font-weight: bold;
-    font-size: 2em;
     font-family: 'Lato', sans-serif;
-
-    padding-bottom: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
 }
 
 .travel p {
     color: var(--branco);
-    text-align: center;
-    font-size: 1em;
-
+    font-size: 1.5em;
     padding: 1em;
+    text-align: center;
 }
 
 .travel_type {
@@ -115,17 +113,15 @@ body {
 }
 
 .travel button {
-    width: 30%;
-    margin: 0.5em;
     border: none;
     background-color: var(--verde-contraste);
     border-radius: 5px;
+    cursor: pointer;
     letter-spacing: 0.1em;
     text-transform: capitalize;
-
-    cursor: pointer;
-
+    margin: 0.5em;
     padding: 1em;
+    width: 30%;
 }
 
 .travel button:hover{
@@ -190,18 +186,22 @@ body {
 
 @media screen and (min-width: 1024px) {
     .header {
+        border: none;
         flex-direction: row;
         justify-content: space-between;
-        
-        border: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .header {
+        border: none;
         flex-direction: row;
         justify-content: space-between;
-
-        border: none;
     }
 }
+
+@media (min-height: 1024px) {
+    .header {
+        position: sticky;
+    }
+  }
