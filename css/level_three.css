@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
 
-/* variáveis que podem ser chamadas pelo css3 */
-/* --nome-da-variavel: valor; */
+/*chamar a variavel por var(--nomeVariavel)*/
 :root {  
     --branco: #fffcfd;
     --azul: #037FA1;
