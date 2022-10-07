@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
 
-    /* variáveis que podem ser chamadas pelo css3 */
-    /* --nome-da-variavel: valor; */
+/* variáveis que podem ser chamadas pelo css3 */
+/* --nome-da-variavel: valor; */
 :root {  
     --branco: #fffcfd;
-    --azul: #04b4e4;
+    --azul: #049FCA;
     --azul-celeste: #0aadf4;
     --verde-agua: #05d0c8; 
     --verde: #05f69a;
     --turquesa: #35d7d5; 
+    --amarelo: #E3AD1C;
+    --chumbo: rgb(20, 20, 20);
+    --verde-contraste: #03A869;
 }
 
 body {

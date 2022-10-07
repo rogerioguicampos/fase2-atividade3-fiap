@@ -4,11 +4,12 @@
 /* --nome-da-variavel: valor; */
 :root {  
     --branco: #fffcfd;
-    --azul: #04b4e4;
+    --azul: #049FCA;
     --azul-celeste: #0aadf4;
     --verde-agua: #05d0c8; 
     --verde: #05f69a;
     --turquesa: #35d7d5; 
+    --amarelo: #E3AD1C;
     --chumbo: rgb(20, 20, 20);
     --verde-contraste: #03A869;
 }
@@ -180,13 +181,14 @@ body {
   }
 
 
+/***------------- MEDIA -------------**/
+
 @media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 940px)/2);
         padding-right: calc((100% - 940px)/2);
     }
 }
-
 
 @media screen and (min-width: 1024px) {
     .header {

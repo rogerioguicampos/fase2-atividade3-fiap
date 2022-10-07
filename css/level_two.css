@@ -4,7 +4,7 @@
 /* --nome-da-variavel: valor; */
 :root {  
     --branco: #fffcfd;
-    --azul: #04b4e4;
+    --azul: #049FCA;
     --azul-celeste: #0aadf4;
     --verde-agua: #05d0c8; 
     --verde: #05f69a;
@@ -89,24 +89,21 @@ body {
 
 .chamada h1 {
     letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
-
     padding: 1em;
 }
 
 .chamada h1 em {
     text-transform: uppercase;
-
 }
-
 
 .chamada p {
     font-size: 1em;
+    margin: auto;
     padding: 1em;
     padding-top: 0;
-    margin: auto;
 }
 
 /**------------- GENERAL_INFO -------------**/
