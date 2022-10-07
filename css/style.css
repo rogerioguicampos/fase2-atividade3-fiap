@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
 
-    /* variaveis que podem ser chamadas pelo css3 */
-    /* --nome-da-variavel: valor; */
+/* variaveis que podem ser chamadas pelo css3 */
+/* --nome-da-variavel: valor; */
 :root {  
     --branco: #fffcfd;
     --azul: #04b4e4;
@@ -9,6 +9,8 @@
     --verde-agua: #05d0c8; 
     --verde: #05f69a;
     --turquesa: #35d7d5; 
+    --chumbo: rgb(20, 20, 20);
+    --verde-contraste: #03A869;
 }
 
 body {
@@ -71,10 +73,7 @@ body {
     transition: 0.5s;
 }
 
-
-/**------------- END HEADER -------------**/
-
-/**------------- HEADER -------------**/
+/**------------- MAIN -------------**/
 
 .principal {  
     align-items: center;
@@ -120,7 +119,7 @@ body {
     width: 30%;
     margin: 0.5em;
     border: none;
-    background-color: var(--verde-agua);
+    background-color: var(--verde-contraste);
     border-radius: 5px;
     letter-spacing: 0.1em;
     text-transform: capitalize;
@@ -137,9 +136,10 @@ body {
     transition: 0.6s;
 }
 
-.travel button a {
-    font-size: 1em;
+.travel button a {  
     color: var(--branco);
+    font-size: 1.3em;
+    text-transform: uppercase;
 }
 
 /***------------- FOOTER -------------**/

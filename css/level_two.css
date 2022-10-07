@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
 
-    /* variáveis que podem ser chamadas pelo css3 */
-    /* --nome-da-variavel: valor; */
+/* variáveis que podem ser chamadas pelo css3 */
+/* --nome-da-variavel: valor; */
 :root {  
     --branco: #fffcfd;
     --azul: #04b4e4;
@@ -11,6 +11,7 @@
     --turquesa: #35d7d5; 
     --amarelo: #E3AD1C;
     --chumbo: rgb(20, 20, 20);
+    --verde-contraste: #03A869;
 }
 
 body {
@@ -182,16 +183,17 @@ body {
   }
 
   .general_info .info {
-    background-color: var(--verde);
-    color: var(--branco);
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
+    background-color: var(--verde-contraste);
+    border: none;
     border-radius: 5px;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 1em;
     text-transform: uppercase;
     width: 100%;
-    padding: 1em;
-    border: none;
-    cursor: pointer;
   }
   
   .general_info .info:hover {
