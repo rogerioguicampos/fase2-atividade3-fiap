@@ -34,39 +34,34 @@ body {
     display: flex;
     flex-direction: column;
     height: 120px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
     width: 100%;
-  }
-  
-  .header_logo {
+}
+
+.header_logo {
     margin-bottom: 0.5rem;
     max-height: 120px;
-  }
-  
-  .header_nav {
+}
+
+.header_nav {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-  }
-  
-  .header_link {
+}
+
+.header_link {
     color: var(--azul);
     font-size: 1.1rem;
-  
     display: inline-block;
-  
     margin-right: .7rem;
-    margin-bottom: 1.25rem;
     margin-left: .7rem;
-  }
-  
-  .header_link:hover {
+}
+
+.header_link:hover {
     color: var(--verde-agua);
     font-weight: bolder;
     transition: 0.5s;
-  }
+}
 
 /**------------- FOTO GRID -------------**/
 

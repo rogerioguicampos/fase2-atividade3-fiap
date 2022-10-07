@@ -5,11 +5,10 @@
     --branco: #fffcfd;
     --azul: #037FA1;
     --azul-celeste: #0aadf4;
-    --verde-agua: #05d0c8; 
+    --verde-agua: #05d0c8;
     --verde: #05f69a;
-    --turquesa: #35d7d5; 
-    --amarelo: #E3AD1C;
-    --chumbo: #141414;
+    --turquesa: #35d7d5;
+    --chumbo:  rgb(20, 20, 20);
     --verde-contraste: #02653F;
 }
 
@@ -34,8 +33,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 120px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
     width: 100%;
 }
 
@@ -54,11 +51,8 @@ body {
 .header_link {
     color: var(--azul);
     font-size: 1.1rem;
-
     display: inline-block;
-
     margin-right: .7rem;
-    margin-bottom: 1.25rem;
     margin-left: .7rem;
 }
 
@@ -69,10 +63,9 @@ body {
 }
 
 /**------------- MAIN -------------**/
-
 .principal {  
     align-items: center;
-    background-image: linear-gradient(var(--chumbo), var(--chumbo)), url(../images/index-main.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../images/index-main.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -80,7 +73,6 @@ body {
     width: 100%;
     height: 100vh;
 }
-
 
 .principal .travel {
     color: var(--branco);
@@ -169,7 +161,6 @@ body {
     font-size: 1.8em;
     margin-bottom: 0.5em;
   }
-
 
 /***------------- MEDIA -------------**/
 
