@@ -144,22 +144,21 @@ body {
 
 /***------------- FOOTER -------------**/
 .footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     align-items: center;
-    
     background-color: var(--azul);
-
-    padding-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    height: 4px;
+    justify-content: space-around;
     padding-bottom: 2em;
+    padding-top: 2.5em;
 }
   
 .footer a {
     width: 100%;
     text-decoration: none;
     color: var(--branco);
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   
   .footer a:hover{
@@ -179,8 +178,6 @@ body {
     font-size: 1.8em;
     margin-bottom: 0.5em;
   }
-/***------------- END FOOTER -------------**/
-
 
 
 @media screen and (min-width: 1024px) {
