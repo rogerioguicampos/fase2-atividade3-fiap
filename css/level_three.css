@@ -28,43 +28,45 @@ body {
 
 /**------------- HEADER -------------**/
 .header {
+    align-items: center;
     color: var(--branco);
-
-    width: 100%;
-    height: 20vh;
-
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    height: 120px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-}
-
-.header_logo {
+    width: 100%;
+  }
+  
+  .header_logo {
     margin-bottom: 0.5rem;
-    max-height: 20vh;
-}
-
-.header_nav {
-    color: var(--azul);
+    max-height: 120px;
+  }
+  
+  .header_nav {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-}
-
-.header_link {
+  }
+  
+  .header_link {
+    color: var(--azul);
     font-size: 1.1rem;
-
+  
     display: inline-block;
-
+  
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
-}
+  }
+  
+  .header_link:hover {
+    color: var(--verde-agua);
+    font-weight: bolder;
+    transition: 0.5s;
+  }
 
 /**------------- FOTO GRID -------------**/
 

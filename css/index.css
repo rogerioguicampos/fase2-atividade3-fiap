@@ -9,7 +9,7 @@
     --verde: #05f69a;
     --turquesa: #35d7d5; 
     --amarelo: #E3AD1C;
-    --chumbo: rgb(20, 20, 20);
+    --chumbo: #141414;
     --verde-contraste: #02653F;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .principal {  
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../images/imagem-1.jpg);
+    background-image: linear-gradient(var(--chumbo), var(--chumbo)), url(../images/index-main.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
