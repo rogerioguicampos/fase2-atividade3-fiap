@@ -221,15 +221,14 @@ form a:hover{
 
 /***------------- FOOTER -------------**/
 .footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     align-items: center;
-    
     background-color: var(--azul);
-
-    padding-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    height: 4px;
+    justify-content: space-around;
     padding-bottom: 2em;
+    padding-top: 2.5em;
 }
   
 .footer a {
