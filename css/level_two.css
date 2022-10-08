@@ -92,27 +92,25 @@ body {
 /**------------- GENERAL_INFO -----;--------**/
 .general_info {
   display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 0.5fr));
-  height: 100vh;
-  width: 100%;
+  height: 80vh;
+  font-size: 16px;
+  width: 100vw;
 }
 
 .img-wrapper {
   overflow: hidden;
   position: relative;
 }
-  
-.img-wrapper > img {
-  aspect-ratio: 1 / 1;
+
+.img-wrapper img {
+  height: 80vh;
   max-width: 100%;
   object-fit: fill;
   object-position: center;
 }
 
-.img-wrapper > .content {
-  align-items: center;
+.img-wrapper .content {
   background: var(--chumbo);
-  display: flex;
   inset: 0;
   font-family: 'Lato', sans-serif;
   font-size: 2em;
@@ -121,15 +119,15 @@ body {
   position: absolute;
 }
   
-.img-wrapper > img,
-.img-wrapper > .content {
-  transition: 0.4s ease-in-out;
+.img-wrapper img,
+.img-wrapper .content {
+  transition: 0.9s ease-in-out;
 }
 
-.img-wrapper > .content.fade {
+.img-wrapper .content.fade {
   opacity: 0;
 }
-.img-wrapper:hover > .content.fade {
+.img-wrapper:hover .content.fade {
   opacity: 0.95;
 }
 
@@ -183,37 +181,32 @@ body {
   align-items: center;
   background-color: var(--azul);
   display: flex;
+  color: var(--branco);
   flex-direction: column;
+  font-size: 16px;
   height: 4px;
   justify-content: space-around;
   padding-bottom: 2em;
   padding-top: 2.5em;
 }
-  
+
 .footer a {
-    width: 100%;
-    text-decoration: none;
-    color: var(--branco);
-    font-size: 0.7em;
-  }
-  
-  .footer a:hover{
-    font-weight: bold;
-    text-decoration: underline;
-    text-transform: uppercase;
-    transition: 0.4s;
-  }
-  
-  .footer p {
-    color: var(--branco);
-    font-size: 0.6em;
-    letter-spacing: 2px;
-  }
-    
-  .footer h3 {
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
-  }
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.footer p {
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+}
   
 /***------------- MEDIA -------------**/
 @media screen and (max-width: 600px) {
@@ -230,6 +223,12 @@ body {
   .header_link {
       display: grid;
       font-size: 1em;
+  }
+
+  .img-wrapper img {
+    grid-template-columns: auto;
+    height: 100vh;
+    width: 100%;
   }
 }
 
