@@ -12,34 +12,32 @@
     --verde-contraste: #02653F;
 }
 
-.container {
-    padding-right: 6%;
-    padding-left: 6%;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--branco);
-    width: 100%;
     height: 100vh;
-
+    width: 100%;
 }
 
 /**------------- HEADER -------------**/
 .header {
     align-items: center;
     color: var(--branco);
+    border: none;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 16px;
     height: 120px;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
     width: 100%;
 }
 
 .header_logo {
     margin-bottom: 0.5rem;
-    max-height: 120px;
+    height: 120px;
 }
 
 .header_nav {
@@ -52,9 +50,9 @@ body {
 .header_link {
     color: var(--azul);
     display: inline-block;
-    font-size: 1.5em;
-    margin-right: .7em;
-    margin-left: .7em;
+    font-size: 1.3rem;
+    margin-right: .7rem;
+    margin-left: .7rem;
 }
 
 .header_link:hover {
@@ -70,9 +68,9 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
     height: 100vh;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .principal .travel {
@@ -160,32 +158,13 @@ body {
 }
 
 /***------------- MEDIA -------------**/
-
-@media screen and (min-width: 1024px) {
-    .container {
-        padding-left: calc((100% - 940px)/2);
-        padding-right: calc((100% - 940px)/2);
-    }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 940px) {
     .header {
+        align-items: left;
         border: none;
         flex-direction: row;
         justify-content: space-between;
+        /* padding-left: 0em;
+        padding-right: -4em; */
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .header {
-        border: none;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@media (min-height: 1024px) {
-    .header {
-        position: sticky;
-    }
-  }
