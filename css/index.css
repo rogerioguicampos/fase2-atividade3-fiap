@@ -132,6 +132,7 @@ body {
     background-color: var(--azul);
     display: flex;
     flex-direction: column;
+    font-size: 16px;
     height: 4px;
     justify-content: space-around;
     padding-bottom: 2em;
@@ -142,26 +143,26 @@ body {
     width: 100%;
     text-decoration: none;
     color: var(--branco);
-    font-size: 0.8em;
-  }
-  
-  .footer a:hover{
+    font-size: 1.1em;
+}
+
+.footer a:hover{
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
     transition: 0.4s;
-  }
-  
-  .footer p {
+}
+
+.footer p {
     color: var(--branco);
-    font-size: 0.6em;
+    font-size: 0.8em;
     letter-spacing: 2px;
-  }
-    
-  .footer h3 {
+}
+
+.footer h3 {
     font-size: 1.8em;
     margin-bottom: 0.5em;
-  }
+}
 
 /***------------- MEDIA -------------**/
 
