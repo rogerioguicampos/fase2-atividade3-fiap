@@ -70,12 +70,13 @@ body {
     background-size: cover;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
 .principal .travel {
     color: var(--branco);
+    font-size: 16px;
 	text-align: center;
     width: 60%;
 }
@@ -86,7 +87,7 @@ body {
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.3em;
 }
 
 .travel p {
@@ -101,15 +102,15 @@ body {
 }
 
 .travel button {
-    border: none;
     background-color: var(--verde-contraste);
+    border: none;
     border-radius: 5px;
     cursor: pointer;
     letter-spacing: 0.1em;
-    text-transform: capitalize;
     margin: 0.5em;
+    text-transform: capitalize;
     padding: 1em;
-    width: 30%;
+    width: 200px;
 }
 
 .travel button:hover{
