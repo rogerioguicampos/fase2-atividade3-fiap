@@ -79,18 +79,13 @@ body {
     font-size: 1.6em;
     font-weight: bold;
     padding-top: 1em;
-}
-
-.chamada h1 em {
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .chamada p {
     font-size: 1.4em;
     margin: auto;
     padding-bottom: 1em;
-    padding-left: 3em;
-    padding-right: 3em;
     padding-top: 1em;
 }
 
