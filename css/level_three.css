@@ -30,10 +30,15 @@ body {
 .header {
     align-items: center;
     color: var(--branco);
+    border: none;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 16px;
     height: 120px;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
     width: 100%;
 }
 
@@ -51,7 +56,7 @@ body {
 
 .header_link {
     color: var(--azul);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     display: inline-block;
     margin-right: .7rem;
     margin-left: .7rem;
@@ -105,7 +110,7 @@ h1 {
     justify-content: center;
     margin: 5rem 0 5rem 0;
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .cards{
@@ -115,6 +120,7 @@ h1 {
     margin: 0 auto;
     grid-gap: 50px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .card{
@@ -136,11 +142,13 @@ h1 {
 .card h3{
     font-family: 'Lato', sans-serif;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .nota{
     width: 30px;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 6px;
 }
 
 p {
@@ -197,6 +205,7 @@ form textarea{
     font-size: 15px;
     margin-bottom: 30px;
     transition: all 0.5s;
+    width: 100%;
 }
 form textarea:focus{
     border-radius: 16px;
@@ -211,6 +220,7 @@ form a{
     transition: all 1s;
     margin-bottom: 20px;
 }
+
 form a:hover{
     background: #f5f5f5;
     color: #101026;
@@ -228,6 +238,7 @@ form a:hover{
     justify-content: space-around;
     padding-bottom: 2em;
     padding-top: 2.5em;
+    width: 100%;
 }
   
 .footer a {
