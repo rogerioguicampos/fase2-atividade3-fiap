@@ -38,20 +38,21 @@ body {
 
 .header_logo {
     margin-bottom: 0.5rem;
-    max-height: 120px;
+    height: 120px;
 }
 
 .header_nav {
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
 }
 
 .header_link {
     color: var(--azul);
     font-size: 1.3rem;
     display: inline-block;
+    font-size: 1.3rem;
     margin-right: .7rem;
     margin-left: .7rem;
 }
@@ -255,28 +256,37 @@ form a:hover{
     margin-bottom: 0.5em;
 }
 
-@media screen and (min-width: 1024px) {
-    .container {
-        padding-left: calc((100% - 940px)/2);
-        padding-right: calc((100% - 940px)/2);
+/***------------- MEDIA -------------**/
+@media screen and (max-width: 600px) {
+    .header {
+        height: 110px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .header_logo {
+        height: 110px;
+    }
+
+    .header_link {
+        display: grid;
+        font-size: 1em;
     }
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 300px) {
     .header {
-        flex-direction: row;
-        justify-content: space-between;
-        
-        border: none;
+        height: 90px;
     }
-}
 
-@media screen and (min-width: 1024px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
+    .header_link {
+        display: grid;
+        font-size: 0.9em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
 
-        border: none;
+    .header_logo {
+        height: 90px;
     }
 }
