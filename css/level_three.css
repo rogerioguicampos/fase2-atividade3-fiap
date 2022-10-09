@@ -220,40 +220,45 @@ form a:hover{
 
 /***------------- FOOTER -------------**/
 .footer {
-    align-items: center;
     background-color: var(--azul);
-    display: flex;
-    flex-direction: column;
-    height: 4px;
-    justify-content: space-around;
-    padding-bottom: 2em;
-    padding-top: 2.5em;
-}
-  
-.footer a {
-    width: 100%;
-    text-decoration: none;
     color: var(--branco);
-    font-size: 0.7em;
+    
+    text-align: center;
+    display: block;
+    padding: 1em;
+    gap: 3em;
+    margin: auto;
+  
+    padding: 2em;
+  }
+  
+  .footer a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    justify-content: space-around;
   }
   
   .footer a:hover{
     font-weight: bold;
     text-decoration: underline;
-    text-transform: uppercase;
     transition: 0.4s;
   }
   
-  .footer p {
-    color: var(--branco);
-    font-size: 0.6em;
-    letter-spacing: 2px;
+  .footer a:after {
+    content: ' \00A0';
   }
-    
-  .footer h3 {
-    font-size: 1.8em;
+  
+  
+  .footer p {
+    align-self: center;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin-top: 1em;
     margin-bottom: 0.5em;
   }
+    
+  
+/***------------- MEDIA QUERIES -------------**/
 
 @media screen and (min-width: 1024px) {
     .container {
