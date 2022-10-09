@@ -90,13 +90,98 @@ body {
 }
 
 /**------------- GENERAL_INFO -----;--------**/
+
 .general_info {
-  display: flex;
-  height: 80vh;
-  font-size: 16px;
-  width: 100vw;
+    font-size: 16px;
+    padding: 0%;
 }
 
+.hotels {
+  max-height: 100%;
+}
+
+.hotels_img {
+  max-height: 80vw;
+  padding: none;
+  margin: none;
+}
+
+.hotels img {
+  background-image: url(../level_two_images/HIB3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  height: 80vh;
+  width: 100%;
+}
+
+.hotels_title {
+  background-color: var(--verde-contraste);
+  padding: 1.5em;
+  text-align: center;
+}
+
+.hotels_title h1 {
+  width: 100%;
+  color: var(--branco);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-left: 1em;
+}
+
+.hotels_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding: 2em;
+  margin: auto;
+}
+
+.hotels_info {
+  margin-bottom: 1em;
+}
+
+.hotels_info p {
+  align-self: center;
+  text-align: start;
+  color: var(--chumbo);
+  line-height: 1.5em;
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+.hotels_info p em {
+  font-weight: bolder;
+  color: var(--verde-contraste);
+}
+
+.button {  
+  background-color: var(--verde-contraste);
+  border: none;
+  border-radius: 5px;
+}
+
+
+.hotels_map h1, .hotels_info h1 {
+  align-items: flex-start;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--azul);
+}
+
+.hotels_map iframe {
+  width: 45vw;
+  max-width: 800px;
+}
+
+/**
 .img-wrapper {
   overflow: hidden;
   position: relative;
@@ -175,7 +260,7 @@ body {
   transition: 0.5s;
 }
   
-
+**/
 /***------------- FOOTER -------------**/
 .footer {
   align-items: center;
@@ -225,11 +310,7 @@ body {
       font-size: 1em;
   }
 
-  .img-wrapper img {
-    grid-template-columns: auto;
-    height: 100vh;
-    width: 100%;
-  }
+
 }
 
 @media screen and (max-width: 300px) {
@@ -242,6 +323,12 @@ body {
       font-size: 0.9em;
       margin-right: 0em;
       margin-left: 0em;
+  }
+
+  .hotels img {
+    height: 100vh;
+    width: 100vw;
+
   }
 
   .header_logo {
