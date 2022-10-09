@@ -5,10 +5,10 @@
     --branco: #fffcfd;
     --azul: #037FA1;
     --azul-celeste: #0aadf4;
+    --chumbo:  #333333;
     --verde-agua: #05d0c8;
     --verde: #05f69a;
     --turquesa: #35d7d5;
-    --chumbo:  rgb(20, 20, 20);
     --verde-contraste: #02653F;
 }
 
@@ -22,7 +22,7 @@ body {
 /**------------- HEADER -------------**/
 .header {
     align-items: center;
-    color: var(--branco);
+    background-color: var(--chumbo);
     border: none;
     box-sizing: border-box;
     display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 .header_link {
-    color: var(--azul);
+    color: var(--branco);
     display: inline-block;
     font-size: 1.3rem;
     margin-right: .7rem;
@@ -56,7 +56,7 @@ body {
 }
 
 .header_link:hover {
-    color: var(--verde-agua);
+    color: var(--azul);
     font-weight: bolder;
     transition: 0.5s;
 }
