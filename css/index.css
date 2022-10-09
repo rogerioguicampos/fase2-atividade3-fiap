@@ -129,32 +129,33 @@ body {
     align-items: center;
     background-color: var(--azul);
     display: flex;
-    color: var(--branco);
     flex-direction: column;
-    font-size: 16px;
     height: 4px;
     justify-content: space-around;
     padding-bottom: 2em;
     padding-top: 2.5em;
+    width: 100%;
 }
   
 .footer a {
-    font-size: 1.1em;
+    color: var(--branco);
+    font-size: 0.7em;
+    width: 100%;
     text-decoration: none;
-}
-
-.footer a:hover{
+  }
+  
+  .footer a:hover{
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
     transition: 0.4s;
-}
-
-.footer p {
-    font-size: 0.8em;
+  }
+  
+  .footer p {
+    color: var(--branco);
+    font-size: 0.6em;
     letter-spacing: 2px;
-    margin-bottom: 0.5em;
-}
+  }
 
 /***------------- MEDIA -------------**/
 @media screen and (max-width: 600px) {
