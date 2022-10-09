@@ -2,27 +2,27 @@
 
 /*chamar a variavel por var(--nomeVariavel)*/
 :root {  
-    --branco: #fffcfd;
-    --azul: #037FA1;
-    --azul-celeste: #0aadf4;
-    --verde-agua: #05d0c8;
-    --verde: #05f69a;
-    --turquesa: #35d7d5;
-    --chumbo:  rgb(20, 20, 20);
-    --verde-contraste: #02653F;
+  --branco: #fffcfd;
+  --azul: #037FA1;
+  --azul-celeste: #0aadf4;
+  --chumbo:  #333333;
+  --verde-agua: #05d0c8;
+  --verde: #05f69a;
+  --turquesa: #35d7d5;
+  --verde-contraste: #02653F;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: var(--branco);
-    height: 100vh;
-    width: 100vw;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--branco);
+  height: 100vh;
+  width: 100vw;
 }
 
 /**------------- HEADER -------------**/
 .header {
   align-items: center;
-  color: var(--branco);
+  background-color: var(--chumbo);
   border: none;
   box-sizing: border-box;
   display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 .header_link {
-  color: var(--azul);
+  color: var(--branco);
   display: inline-block;
   font-size: 1.3rem;
   margin-right: .7rem;
@@ -56,7 +56,7 @@ body {
 }
 
 .header_link:hover {
-  color: var(--verde-agua);
+  color: var(--azul);
   font-weight: bolder;
   transition: 0.5s;
 }
@@ -261,23 +261,25 @@ body {
 }
   
 **/
+
 /***------------- FOOTER -------------**/
 .footer {
   align-items: center;
   background-color: var(--azul);
   display: flex;
-  color: var(--branco);
   flex-direction: column;
-  font-size: 16px;
   height: 4px;
   justify-content: space-around;
   padding-bottom: 2em;
   padding-top: 2.5em;
+  width: 100%;
 }
 
 .footer a {
-  font-size: 1.1em;
+  width: 100%;
   text-decoration: none;
+  color: var(--branco);
+  font-size: 0.7em;
 }
 
 .footer a:hover{
@@ -288,8 +290,13 @@ body {
 }
 
 .footer p {
-  font-size: 0.8em;
+  color: var(--branco);
+  font-size: 0.6em;
   letter-spacing: 2px;
+}
+  
+.footer h3 {
+  font-size: 1.8em;
   margin-bottom: 0.5em;
 }
   
