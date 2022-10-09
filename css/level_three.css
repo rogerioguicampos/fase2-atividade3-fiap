@@ -18,12 +18,6 @@ body {
     background-color: var(--branco);
     width: 100%;
     height: 100vh;
-
-}
-
-.container {
-    padding-right: 6%;
-    padding-left: 6%;
 }
 
 /**------------- HEADER -------------**/
@@ -71,6 +65,7 @@ body {
 /**------------- FOTO GRID -------------**/
 
 .foto_grid {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   }
@@ -233,38 +228,32 @@ form a:hover{
     align-items: center;
     background-color: var(--azul);
     display: flex;
+    color: var(--branco);
     flex-direction: column;
+    font-size: 16px;
     height: 4px;
     justify-content: space-around;
     padding-bottom: 2em;
     padding-top: 2.5em;
-    width: 100%;
 }
   
 .footer a {
-    width: 100%;
+    font-size: 1.1em;
     text-decoration: none;
-    color: var(--branco);
-    font-size: 0.7em;
-  }
-  
-  .footer a:hover{
+}
+
+.footer a:hover{
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
     transition: 0.4s;
-  }
-  
-  .footer p {
-    color: var(--branco);
-    font-size: 0.6em;
+}
+
+.footer p {
+    font-size: 0.8em;
     letter-spacing: 2px;
-  }
-    
-  .footer h3 {
-    font-size: 1.8em;
     margin-bottom: 0.5em;
-  }
+}
 
 @media screen and (min-width: 1024px) {
     .container {
