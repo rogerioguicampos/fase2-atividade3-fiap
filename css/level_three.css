@@ -62,7 +62,6 @@ body {
 }
 
 /**------------- FOTO GRID -------------**/
-
 .foto_grid {
     width: 100%;
     display: grid;
@@ -101,8 +100,7 @@ body {
     max-width: 100%;
 }
 
-  /**------------- COMENTARIO -------------**/
-
+/**------------- COMENTARIO -------------**/
 h1 {
     display: flex;
     justify-content: center;
@@ -157,7 +155,6 @@ p {
 }
 
 /**------------- FORMULARIO -------------**/
-
 .formulario{
     display:flex;
     align-items: center;
@@ -168,11 +165,13 @@ p {
     background: #35d7d5;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+
 .formulario h2{
     color: #f5f5f5;
     font-size: 2.5rem;
     margin: 2rem;
 }
+
 .formulario form{
     display: flex;
     flex-direction: column;
@@ -185,6 +184,7 @@ form label{
     font-size: 17px;
     margin-bottom: 5px;
 }
+
 form input{
     padding: 12px;
     outline: none;
@@ -193,9 +193,11 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
+
 form input:focus{
     border-radius: 16px;
 }
+
 form textarea{
     padding: 10px;
     outline: none;
@@ -205,9 +207,11 @@ form textarea{
     transition: all 0.5s;
     width: 100%;
 }
+
 form textarea:focus{
     border-radius: 16px;
 }
+
 form a{
     padding: 15px;
     cursor: pointer;
@@ -224,7 +228,6 @@ form a:hover{
     color: #101026;
     border-radius: 16px;
 }
-
 
 /***------------- FOOTER -------------**/
 .footer {
@@ -254,7 +257,6 @@ form a:hover{
     content: ' \00A0';
   }
   
-  
   .footer p {
     align-self: center;
     font-size: 0.8em;
@@ -269,7 +271,7 @@ form a:hover{
         height: 110px;
         padding-left: 6%;
         padding-right: 6%;
-
+        width: 100vh;
     }
   
     .header_logo {
@@ -293,31 +295,21 @@ form a:hover{
     .formulario{
         width: 100vh;
     }
-  
-  
+
+    .footer {
+        width: 100vh;
+    }
   }
-  
-  @media screen and (max-width: 300px) {
-    .header {
-        height: 90px;
-    }
-  
-    }
-
-    .header_logo {
-        height: 110px;
-    }
-
-    .header_link {
-        display: grid;
-        font-size: 1em;
-    }
-}
 
 @media screen and (max-width: 300px) {
     .header {
         height: 90px;
     }
+
+    .header_logo {
+        height: 90px;
+    }
+
 
     .header_link {
         display: grid;
@@ -337,20 +329,3 @@ form a:hover{
     }
     
   }
-    }
-
-    .header_logo {
-        height: 90px;
-    }
-  
-    .header_logo {
-        height: 90px;
-    }
-    
-  }
-    }
-
-    .header_logo {
-        height: 90px;
-    }
-}
