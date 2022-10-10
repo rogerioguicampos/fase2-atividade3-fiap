@@ -259,43 +259,83 @@ form a:hover{
     margin-bottom: 0.5em;
 }
 
-/***------------- MEDIA QUERIES -------------**/
+/***------------- MEDIA -------------**/
+@media screen and (max-width: 600px) {
+    .header {
+        height: 110px;
+        padding-left: 6%;
+        padding-right: 6%;
 
-@media (max-width: 940px){
-   .foto_grid{
-    padding: 1% 40% 1% ;
-   }
+    }
+  
+    .header_logo {
+        height: 110px;
+    }
+  
+    .header_link {
+        display: grid;
+        font-size: 1em;
+    }
 
-   .formulario{
-    padding: 1% 70%;
-   }
+    .foto_grid{
+        width: 100vh;
+        
+    }
 
-   .card{
-    flex-wrap:wrap;
-   }
+    .cards{
+        width: 100vh;
+    }
 
-}
+    .formulario{
+        width: 100vh;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 300px) {
+    .header {
+        height: 90px;
+    }
+  
+    }
 
-@media screen and (min-width: 1024px) {
-    .container {
-        padding-left: calc((100% - 940px)/2);
-        padding-right: calc((100% - 940px)/2);
+    .header_logo {
+        height: 110px;
+    }
+
+    .header_link {
+        display: grid;
+        font-size: 1em;
     }
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 300px) {
     .header {
-        flex-direction: row;
-        justify-content: space-between;
-        border: none;
+        height: 90px;
     }
-}
 
-@media screen and (min-width: 1024px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-        border: none;
+    .header_link {
+        display: grid;
+        font-size: 0.9em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+  
+    .hotels img {
+      height: 100vh;
+      width: 100vw;
+  
+    }
+  
+    .header_logo {
+        height: 90px;
+    }
+    
+  }
+    }
+
+    .header_logo {
+        height: 90px;
     }
 }
