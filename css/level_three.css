@@ -267,14 +267,11 @@ form a:hover{
    }
 
    .formulario{
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding: 1% 50% 1%;
+    padding: 1% 70%;
    }
 
-   .cards{
-    padding: 0% 50%;
+   .card{
+    flex-wrap:wrap;
    }
 
 }
