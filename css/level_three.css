@@ -98,6 +98,10 @@ body {
 	filter: grayscale(0);
 }
 
+.img-wrapper .blur {
+    max-width: 100%;
+}
+
   /**------------- COMENTARIO -------------**/
 
 h1 {
@@ -255,6 +259,26 @@ form a:hover{
     margin-bottom: 0.5em;
 }
 
+/***------------- MEDIA QUERIES -------------**/
+
+@media (max-width: 940px){
+   .foto_grid{
+    padding: 1% 40% 1% ;
+   }
+
+   .formulario{
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 1% 50% 1%;
+   }
+
+   .cards{
+    padding: 0%% 50%;
+   }
+
+}
+
 @media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 940px)/2);
@@ -267,7 +291,6 @@ form a:hover{
     .header {
         flex-direction: row;
         justify-content: space-between;
-        
         border: none;
     }
 }
@@ -276,7 +299,6 @@ form a:hover{
     .header {
         flex-direction: row;
         justify-content: space-between;
-
         border: none;
     }
 }
