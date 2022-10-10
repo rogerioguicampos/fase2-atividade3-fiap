@@ -97,6 +97,10 @@ body {
 	filter: grayscale(0);
 }
 
+.img-wrapper .blur {
+    max-width: 100%;
+}
+
   /**------------- COMENTARIO -------------**/
 
 h1 {
@@ -258,7 +262,6 @@ form a:hover{
     margin-top: 1em;
     margin-bottom: 0.5em;
   }
-    
 
 /***------------- MEDIA -------------**/
 @media screen and (max-width: 600px) {
@@ -276,6 +279,19 @@ form a:hover{
     .header_link {
         display: grid;
         font-size: 1em;
+    }
+
+    .foto_grid{
+        width: 100vh;
+        
+    }
+
+    .cards{
+        width: 100vh;
+    }
+
+    .formulario{
+        width: 100vh;
     }
   
   
@@ -314,6 +330,17 @@ form a:hover{
       height: 100vh;
       width: 100vw;
   
+    }
+  
+    .header_logo {
+        height: 90px;
+    }
+    
+  }
+    }
+
+    .header_logo {
+        height: 90px;
     }
   
     .header_logo {
